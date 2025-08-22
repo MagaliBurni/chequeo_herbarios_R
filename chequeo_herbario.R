@@ -25,7 +25,7 @@ colecciones[c(13, 20, 25, 27),1] #especies con NA en herbario físico
 which(is.na(colecciones$TRM_on.line))
 colecciones[c(13, 25), 1] #especies con NA en herbario on-line
 
-# Porcentaje de datos presentes en herbario online pero ausentes en el fisico
+# Porcentaje de datos presentes en herbario físico pero ausentes en el herbario on-line
 per_na <- (2*100) / nrow(colecciones)
 per_na              
 
